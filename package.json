@@ -4,7 +4,8 @@
   "description": "GitHub user search engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel script.js --watch --out-file build.js"
   },
   "keywords": [
     "github",
@@ -15,5 +16,10 @@
     "ecmascript2015"
   ],
   "author": "domin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
 }
