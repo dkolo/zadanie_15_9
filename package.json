@@ -1,0 +1,19 @@
+{
+  "name": "zadanie-15-9",
+  "version": "1.0.0",
+  "description": "GitHub user search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "user",
+    "search",
+    "engine",
+    "es6",
+    "ecmascript2015"
+  ],
+  "author": "domin",
+  "license": "ISC"
+}
